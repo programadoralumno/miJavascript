@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>El título de mi página</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <!-- Aquí empieza el encabezado principal que se mantendrá en todas las páginas del sitio web -->
+
+    <header>
+      <h1>Encabezado</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="/equipo.html">Nuestro equipo</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+
+      <!-- Un formulario de búsqueda es una forma no-lineal de hacer búsquedas en un sitio web. -->
+
+      <form>
+        <input type="search" name="q" placeholder="Buscar" />
+        <input type="submit" value="¡Vamos!" />
+      </form>
+    </nav>
+
+    <!-- Aquí está el contenido principal de nuestra página -->
+    <main>
+      <!-- Contiene un artículo -->
+      <article>
+        <h2>Título del artículo</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
+          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
+          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
+          congue enim, ut porta lorem lacinia consectetur.
+        </p>
+        <img class="developer" src="/assets/developer.jpeg" />
+        <figcaption>Una imagen de programador</figcaption>
+
+        <h3>Subsección</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga
+          velit tempora, aperiam eum libero. Beatae explicabo omnis magnam
+          eligendi dignissimos necessitatibus nemo, tempore dolor. At tempore
+          blanditiis dolorem odit!
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          autem fugiat mollitia quo, assumenda suscipit itaque laudantium
+          provident vitae error nam soluta, ullam fugit quod aliquid consequatur
+          velit non placeat.
+        </p>
+
+        <section>
+          <video controls preoload="auto">
+            <source src="/assets/video.mp4" />
+          </video>
+        </section>
+      </article>
+
+      <!-- el contenido aparte también se puede anidar dentro del contenido principal -->
+      <aside>
+        <h2>Relacionado</h2>
+
+        /** * ? Lista no ordenada */
+        <ul>
+          <li><a href="#">En vivo</a></li>
+          <li><a href="#">Probando</a></li>
+          <li><a href="#">Hola mundo</a></li>
+        </ul>
+
+        /** * ! Lista ordenadas */
+        <ol>
+          <li>punto uno</li>
+          <li>punto dos</li>
+          <li>punto tres</li>
+        </ol>
+      </aside>
+    </main>
+
+    <!-- <script>
+      let d = new Date();
+      document.body.innerHTML =
+        "<h1>El tiempo ahora mismo es:  " +
+        d.getHours() +
+        ":" +
+        d.getMinutes() +
+        ":" +
+        d.getSeconds();
+      ("</h1>");
+    </script> -->
+
+    <!-- Enlazar javascript con HTML con el atributo script src -->
+    <script src="/Javascript/script.js"></script>
+
+    <!-- Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
+    <footer>
+      <p class="footer">
+        Copyright 2023 de Griffin. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
